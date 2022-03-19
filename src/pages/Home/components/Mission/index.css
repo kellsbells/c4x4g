@@ -1,0 +1,25 @@
+.Home-mission {
+    position: relative;
+    min-height: 70vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+
+.Home-mission-wrapper {
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-mission-wrapper {
+    font-style: italic;
+}

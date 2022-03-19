@@ -1,0 +1,35 @@
+.Home-about {
+    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-about p {
+    padding-bottom: 20px;
+}
+
+.Home-about-images {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.Home-about-images img { 
+    width: 30%;
+}
+
+.Home-about-linkfarm {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.Home-about-linkfarm-wrapper {
+    width: 20%;
+}
+
+.Home-about-linkfarm-image {
+    width: 100%;
+}

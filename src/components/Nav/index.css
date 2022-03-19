@@ -3,3 +3,16 @@
     width: 100%;
     z-index: 1;
 }
+
+.Nav-header {
+    color: white;
+}
+
+.Nav-header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nav-header li {
+    list-style-type: none;
+}
