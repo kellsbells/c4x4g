@@ -7,7 +7,7 @@ function Mission() {
         <article className="Home-mission" style={{ backgroundImage: `url(${missionImage})`}}>
         <div className="Home-mission-wrapper">
           <div className="container">
-            <h3>Our Mission</h3>
+            <h2>Our Mission</h2>
             <p>"To preserve, protect and help with the upkeep of our public lands, while creating an environment for women to network, connect, learn and thrive within a community of other female 4x4 enthusiasts."</p>
           </div>
         </div>

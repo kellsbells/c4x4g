@@ -7,7 +7,7 @@ function Images() {
         <article className="Home-images">
             <div className="container">
                 <div>
-                    <h3>Check Us Out On Instagram</h3>
+                    <h2><span>Check Us Out</span> On Instagram</h2>
                     <div className="Home-images-wrapper">
                         <img src={cjg2} />
                         <img src={cjg3} />
@@ -15,7 +15,7 @@ function Images() {
                         <img src={cjg3} />
                     </div>
                 </div>
-                <button>View Our Photo Gallery</button>
+                <button className="button-primary">View Our Photo Gallery</button>
             </div>
         </article>
     );

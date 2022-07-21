@@ -22,12 +22,27 @@
 .Home-about-linkfarm {
     padding-top: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 60px;
+    cursor: pointer;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
 }
 
 .Home-about-linkfarm-wrapper {
     width: 20%;
+    text-decoration: none;
+    color: black;
+    transition: color 100ms linear;
+    filter: grayscale(100%);
+}
+
+.Home-about-linkfarm-wrapper:hover {
+    color: #5490CD;
+}
+
+.Home-about-linkfarm-wrapper:hover {
+    filter: grayscale(0%);
 }
 
 .Home-about-linkfarm-image {

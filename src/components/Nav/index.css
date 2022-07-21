@@ -1,18 +1,76 @@
 .Nav {
     position: fixed;
+    background-color: white;
     width: 100%;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.Nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.Nav-logo {
+    height: 0px;
+}
+
+.Nav-logo-image {
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
 }
 
 .Nav-header {
-    color: white;
+    color: black;
+    flex: 1 auto;
 }
 
 .Nav-header ul {
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
 }
 
 .Nav-header li {
     list-style-type: none;
+    padding: 10px;
+}
+
+.Nav-header li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color 100ms linear;
+}
+
+.Nav-header li a:hover {
+    color: #5490CD;
+}
+
+.Nav-social {
+    display: flex;
+}
+
+.Nav-social a {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    color: #FFCD32;
+    transition: color 100ms linear;
+}
+
+.Nav-social a:hover {
+    color: #5490CD;
+}
+
+.Nav-social a svg {
+    height: 70%;
 }
