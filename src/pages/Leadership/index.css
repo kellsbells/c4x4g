@@ -1,4 +1,4 @@
-.About-hero {
+.Leadership-hero {
     width: 100vw;
     position: relative;
     background-size: cover;
@@ -7,7 +7,7 @@
     background-position: center center;
 }
 
-.About-hero-wrapper {
+.Leadership-hero-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
@@ -19,33 +19,33 @@
     color: white;
 }
 
-.About-hero-container {
+.Leadership-hero-container {
     text-align: center;
     width: 100%;
     padding: 80px 0 60px 0;
 }
 
-.About-hero-logo {
+.Leadership-hero-logo {
     max-width: 200px;
     width: 100%;
 }
 
-.About-hero-content {
+.Leadership-hero-content {
     padding-bottom: 50px;
 }
 
-.About-hero-content h1 {
+.Leadership-hero-content h1 {
     font-size: 60px;
     margin: 0;
     text-transform: uppercase;
 }
 
-.About-hero-content span {
+.Leadership-hero-content span {
     font-family: 'New Tegomin', serif;
     text-transform: none;
 }
 
-.About-hero-content h3 {
+.Leadership-hero-content h3 {
     margin: 0;
     font-size: 25px;
     padding-top: 10px;

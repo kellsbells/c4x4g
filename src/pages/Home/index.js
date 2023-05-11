@@ -9,12 +9,10 @@ import Images from './components/Images';
 function Home() {
   return (
     <main className="Home">
-      <Nav/>
       <Hero/>
       <About/>
       <Mission/>
       <Images/>
-      <Footer/>
     </main>
   );
 }

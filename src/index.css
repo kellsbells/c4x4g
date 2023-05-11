@@ -39,3 +39,30 @@ span {
   font-family: 'New Tegomin', serif;
   text-transform: none;
 }
+
+.container {
+  max-width: 1000px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.divider {
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.divider-top {
+  position: absolute;
+  top: -1px;
+  width: 100%;
+}
+
+.divider img, .divider-top img {
+  width: 100%;
+}
+
+.Home {
+  position: relative;
+}

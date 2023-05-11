@@ -9,28 +9,30 @@ function Nav() {
     <div className="Nav">
       <div className="Nav-container container">
         <div className="Nav-logo">
-          <img className="Nav-logo-image" src={cjgLogo} alt="Colorado 4x4 Girls Logo"/>
+          <Link to={'/'}>
+            <img className="Nav-logo-image" src={cjgLogo} alt="Colorado 4x4 Girls Logo"/>
+          </Link>
         </div>
         <header className="Nav-header">
           <ul>
             <li>
-              <Link to={'about'}>About Us</Link>
+              <Link to={'/about'}>About Us</Link>
             </li>
             
             <li>
-              <Link to={'hello'}>Membership</Link>
+              <Link to={'/membership'}>Membership</Link>
             </li>
 
             <li>
-              <Link to={'hello'}>Calendar</Link>
+              <Link to={'/calendar'}>Calendar</Link>
             </li>
 
             <li>
-              <Link to={'hello'}>Testimonials</Link>
+              <Link to={'/testimonials'}>Testimonials</Link>
             </li>
             
             <li>
-              <Link to={'hello'}>Contact Us</Link>
+              <Link to={'/contact'}>Contact Us</Link>
             </li>
           </ul>
         </header>

@@ -1,32 +1,8 @@
 import './index.css';
-import cjg1 from '../../../../assets/cjg-1.jpeg'
 import { Link } from 'react-router-dom';
+import LinkFarm from '../../../../components/LinkFarm';
 
-export function AboutLinkfarm() {
-    return (
-        <div className="Home-about-linkfarm">
-            <Link to="/about#leadership" className="Home-about-linkfarm-wrapper">
-                        <img className="Home-about-linkfarm-image" src={cjg1} alt="image of girls"/>
-                        Leadership
-                    </Link>
 
-                    <Link to="/about#sponsors" className="Home-about-linkfarm-wrapper">
-                        <img className="Home-about-linkfarm-image" src={cjg1} alt="image of girls"/>
-                        Sponsors
-                    </Link>
-
-                    <Link to="/about#causes" className="Home-about-linkfarm-wrapper">
-                        <img className="Home-about-linkfarm-image" src={cjg1} alt="image of girls"/>
-                        Causes
-                    </Link>
-
-                    <Link to="/about#resources" className="Home-about-linkfarm-wrapper">
-                        <img className="Home-about-linkfarm-image" src={cjg1} alt="image of girls"/>
-                        Off-road Resources
-                    </Link>
-                </div>
-    )
-}
 function About() {
     return (
         <article className="Home-about">
@@ -37,7 +13,7 @@ function About() {
                     <button className="button-primary">Learn More About Us</button>
                 </Link>
                 
-                {AboutLinkfarm()}
+                <LinkFarm/>
             </div>
         </article>
     );

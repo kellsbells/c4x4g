@@ -14,7 +14,7 @@ function Hero() {
                     </div>
                 </div>
             </div>
-            <div className="Home-divider">
+            <div className="Home-divider divider">
                 <img src={border} alt="grungy white border"/>
             </div>
         </article>
